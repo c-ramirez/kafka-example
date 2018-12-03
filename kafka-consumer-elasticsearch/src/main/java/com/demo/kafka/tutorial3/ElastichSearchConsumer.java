@@ -30,9 +30,9 @@ import java.util.Properties;
 public class ElastichSearchConsumer {
     public static RestHighLevelClient createClient(){
 
-        String hostname = "kafka-course-7063732641.us-east-1.bonsaisearch.net";
-        String username = "9871oszm3d";
-        String password = "svrjwvtavj";
+        String hostname = "";
+        String username = "";
+        String password = "";
 
         //don't do if you run a local ES
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
