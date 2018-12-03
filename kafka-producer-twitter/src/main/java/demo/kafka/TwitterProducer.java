@@ -92,10 +92,10 @@ public class TwitterProducer {
         return producer;
     }
 
-    String consumerKey="n6NnchfaYfVB2QB1KhEQpVO8K";
-    String consumerSecret="AvVkmvBdr0iZjQugOT9BYbE7f2DS98KHS253cc1Mh0ImjycmwQ";
-    String token = "1061333129011576833-0X8Xh1z6QFMV8Hb0MatF3m1PNpz1ls";
-    String secret = "YCjTqy7XxiO5nToQd0tluUG3tmJ6hMXJb5BP2Ix9pGdOz";
+    String consumerKey="";
+    String consumerSecret="";
+    String token = "-";
+    String secret = "";
     List<String> terms = Lists.newArrayList("bitcoin","usa","sports","soccer");
     public Client createTwitterClient(BlockingQueue<String> msgQueue){
 
